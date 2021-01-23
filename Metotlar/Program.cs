@@ -23,7 +23,7 @@ namespace Metotlar
             //out keyword kullanımı bitiş
             //params kullanımı başlangıç
             //params ile aynı türde istediğimiz kadar parametre gönderebilmemizi sağlar
-            //paramstan önce parametre alabilir ama params fonksiyonun son parametresi olmalı diğer türlü hata verir.
+            //paramstan önce parametre alabilir ama params fonksiyonun son parametresi olmalı diğer türlü hata verir. çünkü params ile değişken almada sınır yoktur
             Console.WriteLine(Add3(2,3,5));
             Console.WriteLine(Add3(9,6,7,68,5882));
             //params kullanımı bitiş
