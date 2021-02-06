@@ -25,6 +25,14 @@ namespace Generics
             sehirler2.Add("İstanbul");
             sehirler2.Add("İstanbul");
             Console.WriteLine(sehirler2.Count);
+
+            //My dictionary yapısının test kısmı
+            Console.WriteLine("My Dictionary part:");
+            MyDictionary<int, string> sehirler3 = new MyDictionary<int, string>();
+            Console.WriteLine(sehirler3.Count);
+            sehirler3.Add(34, "İstanbul");
+            sehirler3.Add(01, "Adana");
+            Console.WriteLine(sehirler3.Count);
         }
     }
 
