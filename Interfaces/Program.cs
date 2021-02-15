@@ -44,6 +44,7 @@ namespace Interfaces
         }
     }
 
+    //Interfacelerde unimplemented operation'lar bulunur.
     interface IPerson
     {
         int Id { get; set; }
@@ -79,3 +80,4 @@ namespace Interfaces
         }
     }
 }
+//interfaceler new'lenemez. Onlar sadece imza belirtir yani sahip oldukları fonksiyonların içi boştur.

@@ -7,13 +7,16 @@ namespace Interfaces
     //Dal -> data access layer
     interface ICustomerDal
     {
+        //unimplemented operation
         void Add();
         void Update();
         void Delete();
     }
-
+    //inherits - class ----------- implements - interface
+    //java'nın aksine c#'da ikisi için de ":" kullanılır.
     class SqlServerCustomerDal : ICustomerDal
     {
+        //Implemented operation
         public void Add()
         {
             Console.WriteLine("Sql added");
