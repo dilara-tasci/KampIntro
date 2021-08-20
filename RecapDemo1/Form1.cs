@@ -29,9 +29,9 @@ namespace RecapDemo1
             Button[,] buttons = new Button[8, 8];
             int top = 0;
             int left = 0;
-            for (int i = 0; i < buttons.GetUpperBound(0); i++)
+            for (int i = 0; i <= buttons.GetUpperBound(0); i++)
             {
-                for (int j = 0; j < buttons.GetUpperBound(1); j++)
+                for (int j = 0; j <= buttons.GetUpperBound(1); j++)
                 {
                     buttons[i, j] = new Button();
                     buttons[i, j].Width = 50;

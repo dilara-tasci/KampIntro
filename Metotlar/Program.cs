@@ -82,4 +82,7 @@ namespace Metotlar
 
 //type-safe -- tip güvenli
 //Don't repeat yourself - DRY
+//Clean Code
+//Best Practice
+
 
